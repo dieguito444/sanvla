@@ -1,0 +1,97 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+    background-color: #333333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #552525;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #B8860B;
+}
+
+.header .eslogan {
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.slide {
+    position: relative;
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slide p {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Categorías */
+.categorias {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #552525;
+}
+
+.categorias h2 {
+    margin-bottom: 20px;
+    color: #B8860B;
+}
+
+.categoria {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.categoria img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.categoria p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+    font-size: 0.9em;
+    border-top: 2px solid #B8860B;
+}
+
+.footer p {
+    margin: 5px 0;
+}
